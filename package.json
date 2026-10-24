@@ -1,0 +1,19 @@
+{
+  "name": "midi-controller-mapper-voicemeeter",
+  "version": "1.0.0",
+  "description": "A visual MIDI controller mapping tool for Voicemeeter Macro Buttons.",
+  "main": "server.js",
+  "author": "Michael Davison",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micky2171/MIDI-Controller-Mapper-for-Voicemeeter-Macro-Buttons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/micky2171/MIDI-Controller-Mapper-for-Voicemeeter-Macro-Buttons/issues"
+  },
+  "homepage": "https://github.com/micky2171/MIDI-Controller-Mapper-for-Voicemeeter-Macro-Buttons#readme",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
