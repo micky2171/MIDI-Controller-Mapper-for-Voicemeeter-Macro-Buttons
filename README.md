@@ -39,6 +39,9 @@ The application runs locally using Node.js and the browser Web MIDI API. It does
 - Layouts are saved automatically in browser storage.
 - Import and export layouts as JSON.
 
+<img width="2444" height="915" alt="image" src="https://github.com/user-attachments/assets/a99e8cbf-8668-4096-ac2c-8adbe76bad42" />
+
+
 ### LED testing
 
 - Send Note, Control Change, or Pitch Bend messages to a MIDI output.
@@ -289,10 +292,10 @@ Strip[0].Gain += 1;
 ## STUDIOFADE8 notes
 
 The project was developed and tested around the SubZero STUDIOFADE8 MIDI Controller.
+DAW Mode and User Mode can expose different MIDI behaviour. I struggled to get the LED's working in User Mode, so use DAW mode instead.
 
-The LEDs above the STUDIOFADE8 faders can behave as position-mismatch indicators. A flashing fader LED may indicate that the physical fader position does not match the value expected by the connected software. Those indicator LEDs may not behave like ordinary assignable button LEDs.
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b0326ff5-f2ea-4e61-ba46-9a83914b115e" />
 
-DAW Mode and User Mode can expose different MIDI behaviour. User Mode is generally more suitable when assigning custom Note or Control Change IDs.
 
 ## Project structure
 
