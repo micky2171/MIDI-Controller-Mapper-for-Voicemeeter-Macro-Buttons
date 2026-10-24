@@ -259,6 +259,8 @@ After permission has been granted, the first available input and output are conn
 10. Configure the MIDI input device as the MIDI controller.
 11. Configure **MIDI OUT1 Device** as the same controller if LED feedback is required.
 
+<img width="1356" height="422" alt="image" src="https://github.com/user-attachments/assets/e3444454-931f-4ea2-8bf7-8f48bce2ba37" />
+
 ## Faders and continuous controls
 
 Pitch Bend faders can be exported as stepped Macro Buttons, but this creates a large number of entries because Macro Buttons matches specific MIDI messages.
